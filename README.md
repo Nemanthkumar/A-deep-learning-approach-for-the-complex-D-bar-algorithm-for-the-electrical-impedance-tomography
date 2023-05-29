@@ -36,6 +36,8 @@ We seperate the target and the background and we see how much it is deviated fro
 so we seperate the target for the ideal data, dbar and the neural network reconstructed data as well.
 we find the amplitude response, ringing for both the real and imaginary reconstructed images.
 
+I was quite confused with the evaluation technique and I don't know how to compare with the ideal image. So, in the file most_final.ipynb, I found the absolute mean between the ideal data amplitude response and ringing and in the finalest, I have done the division of the reconstructed data with the original data.
+
 Noise data analysis:
 
 We collect the data by infusing noise at different levels from 200 db and we see how the reconstruction occurs visually in both d-bar and the neural network reconstruction.
